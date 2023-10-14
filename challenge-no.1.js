@@ -1,6 +1,6 @@
 const isDivisibleByNumber3OrNumber5 = (x, y) => {
-  const concatWord = (toString(x) + toString(y));
-  const paramLength = concatWord.length;
+  let concatWord = x.toString() + y.toString();
+  let paramLength = concatWord.length;
 
   if (concatWord === 0){
     return "Enter a string whose length is not divisible by 3 or 4";
@@ -17,6 +17,6 @@ const isDivisibleByNumber3OrNumber5 = (x, y) => {
   }
 }
 
-//console.log(isDivisibleByNumber3OrNumber5('onether', 'tenthwer'));
+// console.log(isDivisibleByNumber3OrNumber5('o0', 'tenthwer'));
 
 

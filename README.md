@@ -17,7 +17,7 @@ As the name implies, this repo contains files for JS challenges named XXX.JS
 
 ## Contributing
 
-- Contributors can refactor the function and also add commits to explain what they are doing
+- Contributors can refactor the function so that params can be entered using a prompt 
 
 ## License
 
