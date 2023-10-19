@@ -1,4 +1,4 @@
-const isDivisibleByNumber3OrNumber5 = (x, y) => {
+const fizzBuzz = (x, y) => {
   let concatWord = x.toString() + y.toString();
   let paramLength = concatWord.length;
 
