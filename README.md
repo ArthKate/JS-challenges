@@ -19,6 +19,14 @@ As the name implies, this repo contains files for JS challenges named XXX.JS
 
 - Contributors can refactor the function so that params can be entered using a prompt 
 
-## License
+## Project name
 
-- Add any license information here
+These are JS challenges for the KCF Frontend bootcamp challenges
+
+## Usage
+
+The functions have been named to reflect their functionality. Link the appropriate JS in index.html file to access the function.
+
+## Contact
+
+Send pull request on https://github.com/ArthKate/JS-challenges.git
