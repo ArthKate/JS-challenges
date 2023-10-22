@@ -1,15 +1,11 @@
 const firstPalindrome = (words) => {
   for (const word of words) { // looping through the words in the words array
-    const firstLetter = word[0]; // Get index of first letter of a word
-    const LastLetter = word[-1]; // Get index of last letter of a word
-    const FirstLetterIndex = word[word.length -1];
-    const LastLetterIndex = word[word.length -1];
-    if (FirstLetterIndex === LastLetterIndex) { //first letter is the same as last letter
+    let flippedWord = word.split('').reverse().join('');
+    if (word === flippedWord) { //check if the original word is the same as the reversed word.
       return word;
-    }
+    } 
   }
+  return '';
 };
 
-const words = ["abc", "car", "ada", "racecar", "cool"]
-
-console.log(firstPalindrome(words))
+const demo = ["abc", "car", "ada", "racecar", "cool"]
