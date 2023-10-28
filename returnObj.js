@@ -29,3 +29,21 @@ const returnObj = (arrInput) => {
 const arrInput = [3.0, 'a', 7, 'x', 20, 'd', 4, 'f', 8]
 
 console.log(returnObj(arrInput));
+
+//sort array first
+// function sortArray(arrInput) {
+//   let sampleArray = arrInput;
+//   let sampleArrayCopy = [...arrInput];
+
+//   for (let i of sampleArrayCopy) {
+//     for (let j = 0; j < sampleArray.length; j++) {
+//       if (sampleArrayCopy[i] < sampleArray[j] && sampleArrayCopy[j] !== sampleArray[j]) {
+//         sampleArray[sampleArray.indexOf(i)] = sampleArray[j];
+//         sampleArray[j] = i;
+//       }
+//     }
+//   }
+//   return  sampleArray;
+// }
+
+// console.log(sortArray(arrInput))
